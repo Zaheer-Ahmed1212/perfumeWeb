@@ -18,7 +18,7 @@ tl.from(".lft-sec p",{
     y:15,
     duration:0.8
 })
-tl.from(".lft-sec button",{
+tl.from(".lft-sec a",{
     opacity:0,
     scale:0.4,
     duration:0.8
@@ -39,9 +39,7 @@ gsap.from(".feature-sec h1", {
 
 gsap.from(".feature", {
    opacity: 0,
-   scale: 0.3,
-   y: 40,
-   duration: 0.8,
+   y: 80,
    ease: "power3.out",
 
    scrollTrigger: {
@@ -160,6 +158,19 @@ gsap.from(".testamonials .cards .card", {
     
    }
 });
+const order = document.querySelectorAll(".order");
+order.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    alert("you have ordered successfully!");
+  });
+});
+let msg  = document.querySelector(".msg");
+msg.addEventListener("click",()=>{
+   msg.textContent = "Message Sent!"
+   msg.disabled = true;
+   msg.style.opacity = "0.7";
+
+})
 
 
 

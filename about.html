@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AGS Perfume</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#111827]">
+
+    <div class="navbar text-2xl text-amber-100 flex justify-between items-center bg-transparent absolute w-full z-10">
+        <img src="logo.png" alt="" class="logo-img w-65">
+        <div class="navs h-full mr-8">
+            <ul class="flex gap-4 align-bottom mr-2">
+                <li><a href="index.html" class="hover:text-[#22D3EE]">Home</a></li>
+                <li><a href="about.html" class="hover:text-[#22D3EE] text-[#22D3EE]">About</a></li>
+                <li><a href="shop.html" class="hover:text-[#22D3EE]">Stock</a></li>
+                <li><a href="contact.html" class="hover:text-[#22D3EE]">Contact</a></li>
+                <li><a href="signup.html" class="border-2 rounded-2xl bg-[#22D3EE] text-black font-bold px-3 py-2">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="about-hero h-[100vh] bg-[#111827] flex justify-center items-center flex-col relative overflow-hidden">
+        <!-- decorative circles -->
+        <div class="absolute w-[500px] h-[500px] rounded-full bg-[#22D3EE] opacity-10 -top-20 -left-20 blur-3xl"></div>
+        <div class="absolute w-[400px] h-[400px] rounded-full bg-[#22D3EE] opacity-10 -bottom-20 -right-20 blur-3xl"></div>
+
+        <p class="text-[#22D3EE] text-xl tracking-[6px] uppercase font-semibold mb-4">Who We Are</p>
+        <h1 class="text-7xl font-black text-white text-center leading-tight">
+            The Art of <span class="text-[#22D3EE]">Fragrance</span>
+        </h1>
+        <p class="text-white text-[18px] mt-6 w-[55%] text-center leading-relaxed opacity-80">
+            At AGS Perfume, we believe scent is a silent language — one that speaks of elegance, identity, and emotion. 
+            Every bottle we craft is a story waiting to be worn.
+        </p>
+        <div class="flex gap-4 mt-8">
+            <a class="bg-[#22D3EE] text-[22px] rounded-2xl px-8 py-2 text-black font-bold shadow-xl hover:bg-transparent hover:border-2 hover:text-white hover:border-amber-50 transition duration-300"  href="#story-sec">
+                Our Story
+            </a>
+            <a href="shop.html" class="border-2 border-amber-50 text-[22px] rounded-2xl px-8 py-2 text-white font-bold hover:bg-[#22D3EE] hover:text-black hover:border-[#22D3EE] transition duration-300">
+                View Products
+            </a>
+        </div>
+    </div>
+
+    <!-- OUR STORY SECTION -->
+    <div id="story-sec" class=" bg-[#384064] flex items-center gap-20 p-20">
+        <div class="image-card bg-amber-200 p-3 border-2 border-amber-100 size-[420px] rotate-6 flex-shrink-0">
+            <img src="pre-perf.jpg" class="size-[100%] object-cover transition hover:scale-105">
+        </div>
+        <div class="flex flex-col w-[50%]">
+            <p class="text-[#22D3EE] tracking-[4px] uppercase font-semibold mb-3">Our Story</p>
+            <h2 class="text-5xl text-white font-bold font-sans leading-snug">
+                Born From a Passion <br> for <span class="text-[#22D3EE]">Luxury</span>
+            </h2>
+            <p class="mt-5 text-[17px] text-white opacity-80 leading-relaxed">
+                AGS Perfume was founded with one simple dream: to make luxury fragrance accessible to everyone without compromising on quality. Our journey began in a small workshop where master perfumers handcrafted each blend using the finest natural extracts from around the world.
+            </p>
+            <p class="mt-4 text-[17px] text-white opacity-80 leading-relaxed">
+                Today, we serve thousands of customers who trust us to help them express who they are through scent. Every fragrance in our collection is a testament to our commitment to excellence, sustainability, and timeless elegance.
+            </p>
+            <div class="flex gap-10 mt-8">
+                <div class="flex flex-col items-center">
+                    <h3 class="text-5xl font-black text-[#22D3EE]">10+</h3>
+                    <p class="text-white text-[15px] mt-1 opacity-75">Years of Craft</p>
+                </div>
+                <div class="w-[2px] bg-amber-50 opacity-20 self-stretch"></div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-5xl font-black text-[#22D3EE]">50+</h3>
+                    <p class="text-white text-[15px] mt-1 opacity-75">Unique Scents</p>
+                </div>
+                <div class="w-[2px] bg-amber-50 opacity-20 self-stretch"></div>
+                <div class="flex flex-col items-center">
+                    <h3 class="text-5xl font-black text-[#22D3EE]">25K+</h3>
+                    <p class="text-white text-[15px] mt-1 opacity-75">Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-sec bg-blue-950 p-16 flex flex-col items-center">
+        <p class="text-[#22D3EE] tracking-[4px] uppercase font-semibold mb-3">The People Behind the Scent</p>
+        <h2 class="text-5xl font-bold text-white text-center mb-12">
+            Meet Our <span class="text-[#22D3EE]">Team</span>
+        </h2>
+        <div class="flex justify-center gap-8">
+            <div class="bg-[#111827] rounded-2xl w-[22%] overflow-hidden shadow-[0_15px_20px_-15px_rgba(0,0,0,0.8)] transition duration-300 hover:scale-105">
+                <img src="user1.jpg" alt="Team Member" class="w-full h-[260px] object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold text-white">Ghulam Mustafa</h3>
+                    <p class="text-[#22D3EE] text-[14px] mt-1 font-semibold tracking-wide uppercase">Founder & CEO</p>
+                    <p class="text-white opacity-60 text-[14px] mt-3 leading-relaxed">Visionary behind AGS Perfume with over 15 years in the luxury fragrance industry.</p>
+                </div>
+            </div>
+            <div class="bg-[#111827] rounded-2xl w-[22%] overflow-hidden shadow-[0_15px_20px_-15px_rgba(0,0,0,0.8)] transition duration-300 hover:scale-105">
+                <img src="user2.jpg" alt="Team Member" class="w-full h-[260px] object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold text-white">Abdul Raheem</h3>
+                    <p class="text-[#22D3EE] text-[14px] mt-1 font-semibold tracking-wide uppercase">Master Perfumer</p>
+                    <p class="text-white opacity-60 text-[14px] mt-3 leading-relaxed">A nose trained in Grasse, France, Zain crafts every signature blend with artisanal precision.</p>
+                </div>
+            </div>
+            <div class="bg-[#111827] rounded-2xl w-[22%] overflow-hidden shadow-[0_15px_20px_-15px_rgba(0,0,0,0.8)] transition duration-300 hover:scale-105">
+                <img src="user3.jpg" alt="Team Member" class="w-full h-[260px] object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold text-white">Shoaib Akher</h3>
+                    <p class="text-[#22D3EE] text-[14px] mt-1 font-semibold tracking-wide uppercase">Creative Director</p>
+                    <p class="text-white opacity-60 text-[14px] mt-3 leading-relaxed">Hasan leads the visual identity of AGS, ensuring every bottle is a work of art.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA SECTION -->
+    <div class="cta-sec bg-[#111827] p-20 flex flex-col items-center relative overflow-hidden">
+        <div class="absolute w-[600px] h-[300px] rounded-full bg-[#22D3EE] opacity-10 blur-3xl top-0 left-1/2 -translate-x-1/2"></div>
+        <p class="text-[#22D3EE] tracking-[4px] uppercase font-semibold mb-3 z-10">Join the Journey</p>
+        <h2 class="text-6xl font-black text-white text-center z-10 leading-tight">
+            Find Your <span class="text-[#22D3EE]">Signature</span> Scent
+        </h2>
+        <p class="text-white opacity-70 text-[18px] mt-5 w-[50%] text-center leading-relaxed z-10">
+            Explore our full collection and discover the fragrance that speaks your story. Luxury, crafted for you.
+        </p>
+        <button class="bg-[#22D3EE] text-[26px] mt-8 rounded-2xl px-10 py-2 text-black font-bold shadow-3xl hover:bg-transparent hover:border-2 hover:text-white hover:border-amber-50 transition duration-300 z-10">
+            Shop Now
+        </button>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer flex flex-col items-center p-30 bg-[#384064]">
+        <div class="footer-content flex justify-between w-full px-20">
+            <div class="About-us flex flex-col gap-3 w-[20%]">
+                <h2 class="font-bold text-[#22D3EE] text-3xl">About Us</h2>
+                <p class="text-amber-50">We craft premium fragrances designed to express confidence, elegance, and individuality. Every scent is carefully blended to create a lasting impression with timeless luxury.</p>
+            </div>
+            <div class="Open-hours flex flex-col gap-3 w-[20%]">
+                <h2 class="font-bold text-[#22D3EE] text-3xl">Open Hours</h2>
+                <p class="text-amber-50">Monday to Friday : 10am to 10pm</p>
+                <p class="text-amber-50">Saturday Sunday : 12am to 8pm</p>
+            </div>
+            <div class="Address flex text-[#22D3EE] flex-col gap-3 w-[20%]">
+                <h2 class="font-bold text-3xl">Address</h2>
+                <p class="text-amber-50">Pir Sarhandi goth bin qasim town malir karachi</p>
+            </div>
+            <div class="Follow flex flex-col gap-3 w-[20%]">
+                <h2 class="font-bold text-[#22D3EE] text-3xl">Follow US</h2>
+                <a href="#" class="text-amber-50">Facebook</a>
+                <a href="#" class="text-amber-50">Instagram</a>
+                <a href="#" class="text-amber-50">Twitter</a>
+            </div>
+        </div>
+        <hr class="w-[90%] mt-15 border-amber-50">
+        <p class="mt-8 text-amber-50">© 2026 AGS Perfume. All Rights Reserved.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#111827] pt-[50px]">
+     <div class="navbar  top-0 left-0 right-0 z-50 h-[88px] bg-transparent text-2xl text-amber-100 flex justify-between items-center px-8 shadow-md">
+        
+        <img src="logo.png" alt="Logo" class="logo-img w-64 object-contain">
+        
+        <div class="navs flex items-center">
+            <ul class="flex gap-6 items-center">
+                <li><a href="index.html" class=" inline-block transition-transform duration-200 hover:text-[#22D3EE] ">Home</a></li>
+                <li><a href="about.html" class="inline-block transition-transform duration-200  hover:text-[#22D3EE]">About</a></li>
+                <li><a href="shop.html" class="inline-block transition-transform duration-200  hover:text-[#22D3EE]">Stock</a></li>
+                <li><a href="contact.html" class="inline-block text-[#22D3EE] transition-transform duration-200 hover:text-[#22D3EE]">Contact</a></li>
+                <li><a href="signup.html" class="border-2 border-transparent rounded-2xl bg-[#22D3EE] text-black font-bold px-4 py-2 text-xl inline-block transition-all duration-200 hover:bg-transparent hover:border-[#22D3EE] hover:text-[#22D3EE]">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact-sec min-h-[calc(100vh-88px)]  p-16 text-white flex flex-col justify-center">
+        
+        <h1 class="text-5xl font-bold text-center mb-4">
+            Get In <span class="text-[#22D3EE]">Touch</span> With Us
+        </h1>
+        <p class="text-center text-amber-50 text-[18px] max-w-2xl mx-auto mb-12">
+            Have questions about our luxury fragrances or need help picking your signature scent? Drop us a message!
+        </p>
+
+        <div class="contact-container max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-stretch w-full">
+            <div class="info-pane bg-[#111827] p-10 rounded-2xl w-full md:w-[40%] flex flex-col justify-between border border-gray-800">
+                <div>
+                    <h2 class="text-3xl font-bold text-[#22D3EE] font-sans mb-6">Contact Information</h2>
+                    <p class="text-gray-300 text-[15px] mb-8 leading-relaxed">
+                        Experience our signature customer service. Reach out directly or visit our boutique station in Karachi.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <span class="text-[#22D3EE] text-2xl mt-1">📍</span>
+                            <div>
+                                <h4 class="font-bold text-amber-100">Boutique Address</h4>
+                                <p class="text-gray-400 text-sm mt-0.5">Pir Sarhandi goth bin qasim town malir karachi</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="text-[#22D3EE] text-2xl mt-1">📞</span>
+                            <div>
+                                <h4 class="font-bold text-amber-100">Call/WhatsApp</h4>
+                                <p class="text-gray-400 text-sm mt-0.5">+92 300 1234567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="text-[#22D3EE] text-2xl mt-1">✉️</span>
+                            <div>
+                                <h4 class="font-bold text-amber-100">Email Support</h4>
+                                <p class="text-gray-400 text-sm mt-0.5">support@agsperfume.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socials mt-10">
+                    <h4 class="font-bold text-[#22D3EE] mb-3 text-sm tracking-wider uppercase">Follow Our Journey</h4>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-amber-50 hover:text-[#22D3EE] transition duration-200">Facebook</a>
+                        <span class="text-gray-600">|</span>
+                        <a href="#" class="text-amber-50 hover:text-[#22D3EE] transition duration-200">Instagram</a>
+                        <span class="text-gray-600">|</span>
+                        <a href="#" class="text-amber-50 hover:text-[#22D3EE] transition duration-200">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="form-pane bg-[#111827] p-10 rounded-2xl w-full md:w-[60%] border border-gray-800 flex flex-col justify-between">
+                <div class="space-y-6">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="w-full">
+                            <label class="block text-amber-100 font-semibold mb-2" for="first-name">Your Name</label>
+                            <input type="text" id="first-name" placeholder="John Doe" 
+                                class="w-full p-3 bg-[#384064]/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#22D3EE] focus:ring-1 focus:ring-[#22D3EE] transition">
+                        </div>
+                        <div class="w-full">
+                            <label class="block text-amber-100 font-semibold mb-2" for="email-address">Email Address</label>
+                            <input type="email" id="email-address" placeholder="john@example.com" 
+                                class="w-full p-3 bg-[#384064]/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#22D3EE] focus:ring-1 focus:ring-[#22D3EE] transition">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-amber-100 font-semibold mb-2" for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Inquiry about Midnight Essence" 
+                            class="w-full p-3 bg-[#384064]/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#22D3EE] focus:ring-1 focus:ring-[#22D3EE] transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-amber-100 font-semibold mb-2" for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..." 
+                            class="w-full p-3 bg-[#384064]/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#22D3EE] focus:ring-1 focus:ring-[#22D3EE] transition resize-none"></textarea>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex justify-end">
+                    <button type="submit" 
+                        class="msg bg-[#22D3EE] text-black font-bold text-[20px] rounded-2xl px-8 py-2.5 shadow-xl  hover:border-2 hover:text-white hover:border-amber-50 active:scale-95 transition-all duration-200">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
