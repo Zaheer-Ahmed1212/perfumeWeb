@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100%;
+    color: white;
+}
+.pers-introduc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pers-introduc h3{
+    font-size: 32px;
+}
+.pers-introduc .name{
+    font-size: 28px;
+}
+.pers-introduc .intro{
+    width: 50%;
+    font-size: 20px;
+}
